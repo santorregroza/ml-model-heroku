@@ -4,9 +4,9 @@ import streamlit as st
 def sidebar(ls_page_name):
 
     # Resources
-    image_spainai_url = "https://www.spain-ai.com/wp-content/uploads/2021/04/cropped-spain_ai-150x150.png"
-    edition = "Spain AI 2022"
-    title = "# Vamos a explorar"
+    image_spainai_url = ""
+    edition = "Taller despliegue ML"
+    title = "### Páginas"
 
     st.sidebar.image(image_spainai_url)
     st.sidebar.write(edition)
